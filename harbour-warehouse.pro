@@ -34,10 +34,10 @@ icon.path = $$INSTALL_ROOT/usr/share/icons/hicolor/86x86/apps
 #dbus.files = dbus/net.thecust.harbour_warehouse.service
 #dbus.path = /usr/share/dbus-1/services
 
-zypp.files = rpm/openrepos.enabled
+zypp.files = data/openrepos.enabled
 zypp.path = $$INSTALL_ROOT/etc/zypp/repos.d
 
-polkit.files = rpm/50-net.openrepos.warehouse-packagekit.pkla
+polkit.files = data/50-net.openrepos.warehouse-packagekit.pkla
 polkit.path = $$INSTALL_ROOT/var/lib/polkit-1/localauthority/50-local.d
 
 INSTALLS = zypp target qml js desktop icon polkit #dbus
