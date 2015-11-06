@@ -46,7 +46,7 @@ Warehouse is a native client for OpenRepos.net
 # >> build pre
 # << build pre
 
-%qtc_qmake5 
+%qtc_qmake5 harbour-warehouse.pro
 
 %qtc_make %{?_smp_mflags}
 
